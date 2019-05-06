@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/mistyrose"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是副标题title 1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/blanchedalmond"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是副标题title 2"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/papayawhip"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是内容1"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@color/papayawhip"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是内容2 我是内容2 我是内容2 我是内容2 我是内容2 我是内容2 我是内容2 我是内容2 我是内容2
+我是内容2我是内容2我是内容2我是内容2我是内容2我是内容2我是内容2我是内容2我是内容2我是内容2我是内容2"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@color/lavenderblush"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是副标题title 3"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/seashell"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是副标题3的内容1"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@color/cornsilk"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是副标题3的内容1我是副标题3的内容1我是副标题3的内容1我是副标题3的内容1我是副标题3的内容1我是副标题3的内容1我是副标题3的内容1我是副标题3的内容1我是副标题3的内容1
+我是副标题3的内容1我是副标题3的内容1我是副标题3的内容1我是副标题3的内容1我是副标题3的内容1我是副标题3的内容1我是副标题3的内容1"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@color/lemonchiffon"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/test_scroll"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是副标题title 4"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/seashell"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是副标题title 5"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/seashell"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是副标题title 6"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/seashell"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"/>
+    </LinearLayout>
+
+</ScrollView>
