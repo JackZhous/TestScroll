@@ -38,4 +38,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             super(itemView);
         }
     }
+
+    public int addNums(int a, int b){
+        return a+b;
+    }
 }

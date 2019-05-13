@@ -8,6 +8,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
+import com.jz.testscroll.thread.TaskSleep;
+import com.jz.testscroll.thread.ThreadManager;
+
 /**
  * @author jackzhous
  * @package com.jz.testscroll
@@ -28,6 +31,11 @@ public class RecycleActivtity extends AppCompatActivity {
         RecyclerView recycler = findViewById(R.id.recycle);
         recycler.setLayoutManager(new LinearLayoutManager(this));
         recycler.setAdapter(new Adapter());
+        ThreadManager manager = new ThreadManager();
+        for(int i = 0; i < 100; i++){
+            TaskSleep sleep = new TaskSleep();
+            manager.submitTask(sleep);
+        }
     }
 
     @Override
