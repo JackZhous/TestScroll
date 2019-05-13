@@ -8,7 +8,7 @@ public class MyApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        
-        Log.i("j_tag", "onCreate and pid" + android.os.Process.myPid())
+
+        Log.i("j_tag", "onCreate and pid" + android.os.Process.myPid());
     }
 }
