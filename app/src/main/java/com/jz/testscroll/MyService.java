@@ -13,7 +13,6 @@ public class MyService extends Service {
 
     private SparseArray<String> params;
 
-
     public MyService() {
         params = new SparseArray<>();
     }

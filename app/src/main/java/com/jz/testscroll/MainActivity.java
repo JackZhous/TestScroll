@@ -34,7 +34,9 @@ public class MainActivity extends AppCompatActivity {
         Log.i("j_tag","onResume " + System.currentTimeMillis());
     }
 
+
+
     public void onClick(View view){
-        startActivity(new Intent(this, RecycleActivtity.class));
+//        startActivity(new Intent(this, RecycleActivtity.class));
     }
 }
